@@ -57,11 +57,12 @@ class App extends Component {
 
   render()
   {
+    let disable = this.state.idInterVal !== 0 ? true : false;
     return(
       <div className="App">
         <TrafficLight currentColor={this.state.currentColor}/>
-        <button onClick={this.startInterval}>Start Auto</button>
-        <button onClick={this.stopInterval}>Stop Auto</button>
+        <button onClick={this.startInterval} disabled={disable}>Start Auto</button>
+        <button onClick={this.stopInterval} disabled={!disable}>Stop Auto</button>
         <button onClick={this.manualChangeColor}>Manual Change</button>
       </div>
     );
