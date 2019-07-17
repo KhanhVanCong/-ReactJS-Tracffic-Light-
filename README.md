@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# [Reactjs] Tracffic Light
+- This is my pet project to practice about Reactjs: state, props, event 
+## Link Demo :[![Build Status](https://api.travis-ci.org/OrchardCMS/OrchardCore.svg?branch=dev)](https://shrouded-forest-39072.herokuapp.com/)
+## Features:
+- __Start Auto: Auto change light color
+- __Stop Auto: Stop auto change light color
+- __Manual Change: Click change light color -- step by step
+## Layout:
+![](https://shrouded-forest-39072.herokuapp.com/layout.png)
+>>>>>>> 6a3a09c3695181dd9fb5da34997b126c6497461a
